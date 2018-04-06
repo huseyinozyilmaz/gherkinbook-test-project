@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+# Generated Cucumber Test Results
+cucumber-report.json

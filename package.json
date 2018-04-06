@@ -1,0 +1,16 @@
+{
+  "name": "gherkinbook-test-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run cucumber",
+    "cucumber": "./node_modules/.bin/cucumber-js -f json:./cucumber-report.json"
+  },
+  "author": "Huseyin Ozyilmaz",
+  "license": "MIT",
+  "dependencies": {
+    "cucumber": "^4.1.0",
+    "sleep": "^5.1.1"
+  }
+}
